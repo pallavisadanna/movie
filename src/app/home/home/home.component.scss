@@ -1,0 +1,29 @@
+.body{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.label{
+    font-size: large;
+    margin-top: 5px;
+}
+.sort{
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+    font-size: large;
+}
+button{
+    padding: 0.2rem 1rem;
+    margin: 0rem 0.5rem;
+    font-size: large;
+border-radius: 3px;
+border: none;
+}
+.active{
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid blueviolet;
+}

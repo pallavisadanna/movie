@@ -1,0 +1,61 @@
+[
+    {
+        "title":"Alladin",
+        "date":"20-20-2020",
+        "ratings":4.3,
+        "popularity":1991,
+        "votes":"298",
+        "photo":"../../../assets/images/alladin.jpeg"
+    },
+    {
+        "title":"Assasian",
+        "date":"19-02-2019",
+        "ratings":1,
+        "popularity":123,
+        "votes":100,
+        "photo":"../../../assets/images/assasian.jpeg"
+    },
+     {
+        "title":"Avatar",
+        "date":"10-10-2015",
+        "ratings":4.3,
+        "popularity":10000,
+        "votes":1002,
+        "photo":"../../../assets/images/avatar.jpeg"
+    },  {
+        "title":"Interstellar",
+        "date":"07-11-2014",
+        "ratings":"4.3",
+        "popularity":"9200",
+        "votes":"920",
+        "photo":"../../../assets/images/interstellar.jpeg"
+    },  {
+        "title":"Junglebook",
+        "date":"08-04-2016",
+        "ratings":"3.7",
+        "popularity":"8400",
+        "votes":"840",
+        "photo":"../../../assets/images/junglebook.jpeg"
+    },  {
+        "title":"Madmax",
+        "date":"15-5-2015",
+        "ratings":"4.05",
+        "popularity":"9000",
+        "votes":"900",
+        "photo":"../../../assets/images/madmax.jpeg"
+    },  {
+        "title":"Parasite",
+        "date":"30-5-2019",
+        "ratings":"4.25",
+        "popularity":"25000",
+        "votes":"2500",
+        "photo":"../../../assets/images/parasite.jpeg"
+    },  {
+        "title":"Star Wars",
+        "date":"30-03-2018",
+        "ratings":"3.65",
+        "popularity":"50000",
+        "votes":"5000",
+        "photo":"../../../assets/images/starwars.jpeg"
+    }
+]

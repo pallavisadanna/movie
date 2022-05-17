@@ -1,0 +1,21 @@
+<div class="body">
+    <div class="card-list">
+        <div class="card" *ngFor="let movie of movies">
+            <img [src]="movie.photo">
+            <div class="title"><b>Title:&nbsp;</b>{{movie.title}}</div>
+            <div><b>Date:&nbsp;</b>{{movie.date}}</div>
+
+            <div class="votes-date border">
+                <div>
+                    <b>Votes:&nbsp;</b>
+                    {{movie.votes}}
+                </div>
+                <div><b>Popularity:&nbsp;</b>{{movie.popularity}}</div>
+            </div>
+            <div class="flex">
+                <b>Rating:&nbsp;</b>
+                <div class="rating" [style.width.rem]="movie.ratings*2" [ngClass]="{'red':movie.ratings<2,'green':movie.ratings>=2}"></div>{{movie.ratings}}
+            </div>
+        </div>
+    </div>
+</div>

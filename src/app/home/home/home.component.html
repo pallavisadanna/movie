@@ -1,0 +1,9 @@
+<div class="body">
+    <app-header (emitValue)="searchData($event)" [searchValue]="searchValue"></app-header>
+    <div class="sort">
+        <div class="label">Sort by:&emsp;</div>
+        <button (click)="sortByTitle()" [ngClass]="{'active':titleSort == true}">Title</button>
+        <button (click)="sortByPopularity()" [ngClass]="{'active':popularitySort == true}">Popularity</button>
+    </div>
+    <app-movie-card *ngIf="movies" [movies]="movies"></app-movie-card>
+</div>
